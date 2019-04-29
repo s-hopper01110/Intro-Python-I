@@ -19,4 +19,16 @@ print("%s" % z, "%i" % x, "%d" % y)
 
 # Use the 'format' string method to print the same thing
 
+print('{} {} {}'.format(z,x,y))
 # Finally, print the same thing using an f-string
+
+
+# I would add that since version 3.6, we can use fstrings like the following
+
+#personal example:
+
+# foo = "john"
+# bar = "smith"
+# print(f"My name is {foo} {bar}")
+
+print(f'This is what it reads: {z} {x} {y}')
