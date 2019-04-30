@@ -16,10 +16,11 @@ z = "I like turtles!"
 # x is 10, y is 2.25, z is "I like turtles!"
 
 print("%s" % z, "%i" % x, "%d" % y)
+# print("%2i, %4.2f, %15s" % (x, y, z))
 
 # Use the 'format' string method to print the same thing
 
-print('{} {} {}'.format(z,x,y))
+print('{} {} {:.2}'.format(z,x,y))
 # Finally, print the same thing using an f-string
 
 
